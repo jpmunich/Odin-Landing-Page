@@ -3,4 +3,36 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #3d3d3d;
+}
+
+:root {
+    --dark-background: #1F2937;
+}
+
+nav {
+    background-color: var(--dark-background);
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5em;
+}
+
+nav > div {
+    flex: 3 0 0;
+}
+
+nav > div > img {
+    padding: clamp(1.2em, 4vw, 4em);
+}
+nav > a {
+    font-size: clamp(0.7rem, 3vw, 1.2rem);
+    padding: clamp(0.5em, 2vw, 2em);
+    text-decoration: none;
+    flex: 1 0 0;
 }
