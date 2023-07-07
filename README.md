@@ -1,1 +1,2 @@
 # Odin-Landing-Page
+This was a landing page built as part of TheOdinPrject's curriculum. This project significantly challenged my css flexbox skills and was used mainly as a series of drills to improve my skills in with the tool.
